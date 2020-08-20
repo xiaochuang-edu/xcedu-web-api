@@ -27,6 +27,12 @@
           },{
             "path": "/editor",
             "title": "富文本编辑器"
+          },{
+            "path": "/logo",
+            "title": "logo栏"
+          },{
+            "path": "/user",
+            "title": "用户栏"
           }]
         },
         {
@@ -286,7 +292,7 @@
       ]
     }
   ],
-  "en-US": [ 
+  "en-US": [
     {
       "name": "Development",
       "children": [
@@ -572,7 +578,7 @@
       ]
     }
   ],
-  "es": [ 
+  "es": [
     {
       "name": "Development",
       "children": [
@@ -858,7 +864,7 @@
       ]
     }
   ],
-  "fr-FR": [ 
+  "fr-FR": [
     {
       "name": "Développement",
       "children": [

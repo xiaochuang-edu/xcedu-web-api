@@ -77,6 +77,7 @@
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |
 |---------- |-------- |---------- |-------------  |-------- |
 | value / v-model | 绑定值 | string | — | '' |
+| dir  | 上传指定目录    | string   | — | 'anonymous'   |
 | readonly  | 是否只读    | boolean   | — | false   |
 | upload-type  | 附件模式或图片模式    | string   | 'file'/'image' | 'file' |
 | accept  | 接受的文件类型    | string   | — | — |
