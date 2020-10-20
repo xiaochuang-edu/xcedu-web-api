@@ -73,14 +73,14 @@ yarn install
 :::
 
 ### FAQ
-F: 如何调用选人、富文本编辑器等公共组件？
+Q: 如何调用选人、富文本编辑器等公共组件？
 
 A: 公共组件已全局注册，可在模板里直接使用。
 
-F: 如何调用公用的js(就是xcedu-web-share项目里提供的函数，比如axios)？
+Q: 如何调用公用的js(就是xcedu-web-share项目里提供的函数，比如axios)？
 
 A: 确认你的项目下面的webpack.config.js配置文件里的externals下面有'xc-share': 'XcShare'。之后就可以通过import的方式引入并使用了，比如import { axios } from 'xc-share'。
 
-F: 我修改了公共组件（xcedu-web-components项目）或公用的js（xcedu-web-share项目），如何提供给大家使用？
+Q: 我修改了公共组件（xcedu-web-components项目）或公用的js（xcedu-web-share项目），如何提供给大家使用？
 
 A: 打包完成后把生成的js文件放进xcedu-web-common项目的xcbase文件夹下面即可。
